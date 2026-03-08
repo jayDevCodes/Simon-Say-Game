@@ -89,7 +89,7 @@ function gameOver() {
     reset();
 }
 
-// Reset game
+// Reset game.
 function reset() {
     started = false;
     gameSeq = [];
