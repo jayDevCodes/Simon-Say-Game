@@ -79,7 +79,7 @@ function checkAnswer(idx) {
 
 // Game over
 function gameOver() {
-    h2.innerText = "Game Over! Press Any Key to Restart";
+    h2.innerText = "Game Over!  Press Any Key to Restart";
     body.style.backgroundColor = "red";
 
     setTimeout(() => {
