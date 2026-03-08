@@ -29,7 +29,7 @@ function levelUp() {
     playSequence();
 }
 
-// Play full sequence
+// Play full sequence ..
 function playSequence() {
     let i = 0;
     let interval = setInterval(() => {
@@ -43,7 +43,7 @@ function playSequence() {
     }, 600);
 }
 
-// Flash effect
+// Flash effect .. 
 function flash(btn) {
     btn.classList.add("whiteBg");
     setTimeout(() => {
@@ -51,7 +51,7 @@ function flash(btn) {
     }, 300);
 }
 
-// Button clicks
+// Button click 
 let btns = document.querySelectorAll(".container > div");
 
 for (let btn of btns) {
